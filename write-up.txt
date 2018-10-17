@@ -1,9 +1,0 @@
-Pengujian diatas dilakukan untuk mengetes apakah fungsi findByFlightNumber() menghasilkan object
-yang sesuai dengan ekspektasi.
-
-1. Mengapa perlu menginisiasi object PilotModel, sedangkan yang di test hanya FlightModel?
-=> 	Karena pada data flightModel juga disimpan data pilot yang berasosiasi dengan flight, sehingga
-	data tersebut tidak boleh null dan harus diinisiasi juga. 
-2. Jelaskan apa yang akan terjadi jika object PilotModel dihapus dan tidak dilakukan setPilot pada
-FlightModel?
-=>	
